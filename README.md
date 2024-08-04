@@ -40,3 +40,6 @@ This script will start a Flask API server Opens a UI where we can enter the data
 
 **Blog**
 For a detailed analysis and insights from the project, see the Technical Blog at https://medium.com/@sairams8210/creating-a-clustering-algorithm-for-stratergic-aid-allocation-756cd03dd233.
+
+**Tableau Dashboard**
+For the Tableau Dashboard it can be accessed/viewed at https://public.tableau.com/app/profile/sairam4138/viz/ClusteringCountriesforStrategicAidAllocation/Dasboard
