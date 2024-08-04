@@ -4,10 +4,12 @@
 
 >Others/
 >>Clustering Countries for Strategic Aid Allocation_v2024.1
+
 >>Clustering_Countries_for_Strategic_Aid_Allocation.ipynb
 
 >templates/
 >>input_form.html
+
 >>result.html
 
 >app.py
