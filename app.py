@@ -5,7 +5,9 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 import json
 import os
+import warnings
 
+warnings.filterwarnings("ignore")
 app = Flask(__name__)
 
 # Load the KMeans model and scaler
@@ -15,7 +17,7 @@ with open("Clustering Countries for Strategic Aid Allocation.pkl", 'rb') as file
 scaler=StandardScaler()
 
 # Load the country data
-df = pd.read_csv('Country-data.csv')
+df = pd.read_csv('./Data/Country-data.csv')
 
 # Define the features used for clustering
 features = ['child_mort', 'exports', 'health', 'imports', 'income', 'inflation',
